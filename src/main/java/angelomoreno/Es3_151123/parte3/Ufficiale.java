@@ -8,7 +8,7 @@ import lombok.*;
 @ToString
 public class Ufficiale {
     private Grado grado;
-    private double stipendio;
+    private int stipendio;
     public Ufficiale(Grado grado) {
         this.grado = grado;
     }
